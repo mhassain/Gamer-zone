@@ -1,0 +1,286 @@
+/*==basic styles===*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 3%;
+}
+span.special {
+    padding-left: 15px;
+    color: #FF42A5;
+}
+/*====Nav Section====*/
+.primary-header{
+    background-color: #fff;
+    padding-bottom:2%;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav h1{
+    display: flex;
+    align-items: center;
+}
+.header-nav h1 img{
+    width: 35%;
+}
+.header-nav a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    list-style: none;
+    padding: .6rem;
+}
+.nav li a{
+    color: #3C354F;
+    font-size: 1rem;
+}
+.nav .mark{
+    background-color: #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*===Banner Section===*/
+.banner{
+    background-color: #ddd;
+}
+.goat-banner{
+    display: flex;
+    flex-direction: row;
+}
+.goat{
+    text-align: left;
+    margin-top: 10%;
+}
+.goat h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #0B0223;
+}
+.goat h1{
+    color: #F948B2;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.goat>*{
+    padding: 5px 0;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.goat button.pink{
+    background-color: #F948B2;
+}
+.goat button.sky-blue{
+    background-color: #4EC5F7;
+}
+.banner-image{
+    display: flex;
+    justify-content: end;
+}
+.banner-image img{
+    width: 80%;
+}
+
+/*===Gamer Image===*/
+.we-are-gamer{
+    display: flex;
+
+}
+.gamer-image img{
+   width: 80%;
+}
+
+.intro{
+    padding-top: 5%;
+    text-align: right;
+    width: 50%;
+}
+.intro h2{
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #F948B2;
+}
+
+.intro button.pink{
+    background-color: #F948B2;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+.intro>p{
+    font-size: .8rem;
+    line-height: 1.3rem;
+    color: #534C64;
+}
+.intro  p.regular{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.intro p.bold{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #534C64; 
+}
+
+/*===Videos Section===*/
+.videos{
+    margin-top: 5%;
+}
+.videos h2{
+    font-size: 2rem;
+}
+.videos .gradient{
+    color: #F948B2;
+}
+.games-videos{
+    text-align: center;
+}
+.games-videos p{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: .8rem;
+}
+.video-items{
+    display: flex;
+    flex-direction: row;
+}
+.vid-item img{
+    width: 95%;
+    height: 85%;
+}
+.vid-item p{
+    text-align: left;
+    font-weight: bold;
+}
+
+/*===Posters Sectiion===*/
+.posters{
+    padding-top: 10%;
+}
+.poster-1{
+    display: flex;
+    justify-content: flex-end;
+}
+.message{
+    padding-top: 10%;
+    text-align: right;
+}
+.message h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+.gradient{
+    color:#F948B2;
+}
+.message p{
+    font-size: .8rem;
+    line-height: 1.3rem;
+    color: #534C64;
+}
+.poster-top-right{
+    text-align: right;
+    position: relative;
+}
+.poster-top-right .bottom-image{
+    width: 60%;
+}
+.poster-top-right .upper-image{
+    position: absolute;
+    width: 30%;
+    top: 60%;
+    right: 45%;
+}
+.poster-top-left{
+    text-align: left;
+}
+.poster-top-left img{
+    width: 50%;
+}
+
+/*==Game Lists===*/
+.game-lists{
+    margin: 10% 0;
+    text-align: center;
+}
+.g-list{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.game{
+    display: flex;
+}
+
+.game img{
+    padding: 10px 0;
+}
+
+.game .text{
+    align-items: center;
+    display: flex;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+/*===Primary Footer===*/
+.primary-footer{
+    background-color: #0B0223;
+    color: #fff;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%
+}
+.footer-logo img{
+    width: 8%;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+}
+.menu-list li{
+    list-style: none;
+    padding: 20px;
+}
+.social-icons{
+    list-style: none;
+}
+.terms-list{
+    display: flex;
+    justify-content: center;
+}
+.terms-list li{
+    list-style: none;
+    padding: 30px;
+}
